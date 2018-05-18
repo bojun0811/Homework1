@@ -1,15 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
-int main(int argc, char *argv[]) {
-	int i,total =0;
-	for (i=1;i<=10;i++)
+int main(int argc, char *argv[])
+ {
+	int number,total =0;
+	for (number=1;number<=10;number++)
 	{
-	total +=i;
+	total +=number;
 	}
-	printf("從1加到10=%d\n",total);
-	
+	printf("從 1 加到 10 = %d\n",total);
 	return 0;
-}
+ }
